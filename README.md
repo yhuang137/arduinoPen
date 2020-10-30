@@ -30,7 +30,7 @@ Our project is composed of the procedures of data collection, signal processing,
 <br />
 
 ## Paper reference
-https://dl.acm.org/doi/pdf/10.1145/3411842
+https://dl.acm.org/doi/pdf/10.1145/3411842?casa_token=rvv-BYkLxgEAAAAA:Xz323qrQF0WEeOPzTvtWd0Bj0wzBBoYXkEd1mP8ItxQcSQd-gWE9kVHGSFi3Z-hbKUAxa3dUer9Gbg
 <br />
 <br />
 
