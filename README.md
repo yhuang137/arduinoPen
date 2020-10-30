@@ -1,5 +1,4 @@
 # Arduino Pen
-<br />
 
 ###
 Team Name: Goal Digger <br />
