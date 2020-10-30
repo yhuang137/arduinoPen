@@ -1,6 +1,11 @@
 # Arduino Pen
 <br />
 
+###
+Team Name: Goal Digger <br />
+Member 1: Yong Huang, 904950577 <br />
+Member 2: Huanhua Lu, 604952945 <br /><br />
+
 ## Motivation
 During the covid-19 pandemic, many people have to work from home. For those who used to do heavy paperwork, the transition from paper to computer typing may not be smooth and easy. However, most of the stylus pens on the market only work on a touchscreen device, which don’t provide the physical feedback of writing on paper. Therefore, we would like to design an electronic pen that can write on the paper and transcribe handwritten characters into computer notes.
 <br />
