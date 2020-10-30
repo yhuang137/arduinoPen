@@ -29,8 +29,10 @@ Our project is composed of the procedures of data collection, signal processing,
 <br />
 <br />
 
-## Literature Review
+## Paper reference
 https://dl.acm.org/doi/pdf/10.1145/3411842
+<br />
+<br />
 
 ## Milestones
 **Week 5:** Successfully set up the hardware (IMU) and software (Python) environment. Build up wireless communication between the device and computer.  
