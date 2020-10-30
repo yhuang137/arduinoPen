@@ -35,6 +35,6 @@ https://dl.acm.org/doi/pdf/10.1145/3411842
 <br />
 
 ## Milestones
-**Week 5:** Successfully set up the hardware (IMU) and software (Python) environment. Build up wireless communication between the device and computer.  
-**Week 7:** Collect data and train a robust neural network to process writing motion data. 
-**Week 9:** Finalize the design and prepare the video presentation. 
+**Week 5:** Successfully set up the hardware (IMU) and software (Python) environment. Build up wireless communication between the device and computer. <br />
+**Week 7:** Collect data and train a robust neural network to process writing motion data. <br />
+**Week 9:** Finalize the design and prepare the video presentation. <br />
