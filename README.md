@@ -1,37 +1,43 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/yhuang137/arduinoPen/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+###
+Team Name: Goal Digger <br />
+Member 1: Yong Huang, 904950577 <br />
+Member 2: Huanhua Lu, 604952945 <br /><br />
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Motivation
+During the covid-19 pandemic, many people have to work from home. For those who used to do heavy paperwork, the transition from paper to computer typing may not be smooth and easy. However, most of the stylus pens on the market only work on a touchscreen device, which don’t provide the physical feedback of writing on paper. Therefore, we would like to design an electronic pen that can write on the paper and transcribe handwritten characters into computer notes.
+<br />
+<br />
 
-### Markdown
+## Goal
+Our goal is to build a stylus pen on an Arduino Nano 33 BLE microcontroller, and utilize the machine learning skill to transcribe 0-9 digits and simple math operators (+, -, *, /, =)  written on a horizontal surface. 
+<br />
+<br />
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Stretch Goal
+All team members are right-handed, so our system lacks the training data of left-handed writing motions. If time allows, we would like to make our design work well with left-handed people. 
+<br />
+<br />
 
-```markdown
-Syntax highlighted code block
+## Technical Approach
+An inertial measurement unit (IMU) tracks the pen location and motion, then the arduino transmits the signal of the movements via bluetooth to a computer.  By the reference of the paper The OnHW Dataset: Online Handwriting Recognition from IMU-Enhanced Ballpoint Pens with Machine Learning (FELIX OTT, 2020), the paper classified different handwriting digits and characters using different neural networks, and comes out that convolutional neural networks have the highest accuracy. Therefore, the motion signal will be processed and sent to a convolution neural network. 
+Our project is composed of the procedures of data collection, signal processing, and deep learning neural networks. 
+<br />
+<br />
 
-# Header 1
-## Header 2
-### Header 3
+**Data collection:** We will write each digit and operator in different styles, and different pen-holding gestures, which means that we can imitate the MNIST data sets,  then we collect the raw data from the IMU.
+**Communication:** We will use bluetooth to transmit messages between Arduino and computer. 
+**Signal processing:** We will filter and transform the raw motion data to an imaginary “image”. 
+**Neural Network:** the CNN will classify the handwritten characters based on the “image” input. 
+<br />
+<br />
 
-- Bulleted
-- List
+## Paper reference
+https://dl.acm.org/doi/pdf/10.1145/3411842?casa_token=rvv-BYkLxgEAAAAA:Xz323qrQF0WEeOPzTvtWd0Bj0wzBBoYXkEd1mP8ItxQcSQd-gWE9kVHGSFi3Z-hbKUAxa3dUer9Gbg
+<br />
+<br />
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/yhuang137/arduinoPen/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Milestones
+**Week 5:** Successfully set up the hardware (IMU) and software (Python) environment. Build up wireless communication between the device and computer. <br />
+**Week 7:** Collect data and train a robust neural network to process writing motion data. <br />
+**Week 9:** Finalize the design and prepare the video presentation. <br />
