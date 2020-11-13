@@ -1,3 +1,4 @@
+# Arduino Pen
 
 ###
 Team Name: Goal Digger <br />
@@ -41,3 +42,6 @@ https://dl.acm.org/doi/pdf/10.1145/3411842?casa_token=rvv-BYkLxgEAAAAA:Xz323qrQF
 **Week 5:** Successfully set up the hardware (IMU) and software (Python) environment. Build up wireless communication between the device and computer. <br />
 **Week 7:** Collect data and train a robust neural network to process writing motion data. <br />
 **Week 9:** Finalize the design and prepare the video presentation. <br />
+
+
+
